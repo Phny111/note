@@ -40,15 +40,15 @@ public class FirstSample{
 
   > 标准的命名规范：类名以大写字母开头的名词。如果名字由多个单词组成，每个单词的第一个字母都应该大写
 
-- 源文件的文件名必须与公共类的名字相同，并用.java作为拓展名
-- 每个句子必须用分号（;）隔开
-- 点号（.）用于调用方法
+- 源文件的文件名必须与公共类的名字相同，并用 .java作为拓展名
+- 每个句子必须用分号 ; 隔开
+- 点号 . 用于调用方法 
 
 ### 注释  
 
 1. //  `注释内容从//开始到本行结束`
 
-2. /*  */  `从/开始，以*/结束`
+2. /*  */  `从/*开始，以*/结束`
 
    > /* */不能嵌套
 
@@ -98,10 +98,15 @@ Boolean（布尔）类型有两个值：false和true，用来判定逻辑条件
 
  每个变量都有类型。声明变量时，先指定变量的类型，然后是变量名
 
-- double salary;
-- int vacationDay;
-- long earthPopulation;
-- boolean done;
+例：
+
+`double salary;`
+
+`int vacationDay;`
+
+`long earthPopulation;`
+
+`boolean done;`
 
 > 必须以分号结束
 >
@@ -113,13 +118,15 @@ Boolean（布尔）类型有两个值：false和true，用来判定逻辑条件
 
 要想对一个声明过的变量进行赋值，就需要将变量名放在等号（=）左侧，再把一个适当取值的java表达式放在等号右侧。
 
-> int vacationDays；
->
-> vacationDays=12；
+例：
+
+`int vacationDays；`
+
+`vacationDays=12；`
 
 也可以将变量的声明和初始化放到同一行
 
-> int vacatinoDays=12;
+`int vacatinoDays=12;`
 
 - 在java中可以将声明放在代码的任何地方。
 
@@ -138,6 +145,8 @@ Boolean（布尔）类型有两个值：false和true，用来判定逻辑条件
 - `const`是java的保留的关键字，但目前没有使用。在java中，必须使用`final`定义常量
 
 #### 枚举类型
+
+
 
 ### 运算符
 
