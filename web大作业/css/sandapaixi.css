@@ -1,0 +1,13 @@
+
+main p{
+    float: right;
+    padding-right: 220px;
+    width: 60%;
+	font-size: 25px;
+}
+main img{
+    width: 300px;
+    height: 600px;
+    padding-left: 150px;
+	border-radius: 100px;
+}

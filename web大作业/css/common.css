@@ -1,0 +1,61 @@
+body{
+	background: url("../image/bg.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-o-background-size: cover;                
+	background-size: cover;
+  }
+main h1{
+	text-align: center;
+	font-size: 80px;
+	line-height: 60px;
+	letter-spacing: 2px;
+	text-shadow: 3px 3px 3px #d2af6b;
+	
+}
+header{
+	width: 90%;
+	margin: 0 auto;
+}
+header ul{
+	width: 100%;
+	margin: 15px auto; 
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin: 15px auto;
+	box-shadow: 0px 0px 30px rgb(230, 100, 100) inset;
+}
+header ul li{
+	width: 10%;
+	list-style: none;
+}
+header ul li a{
+
+	border-radius: 100px;
+	line-height: 45px;
+	text-align: center;
+	display: block;
+	color: #0e96a8;
+	font-size: 23px;
+	box-shadow: 1px 10px 20px rgb(226, 12, 12) inset;
+	list-style: none;
+	text-decoration:none
+}
+div {
+	text-align: center;
+	padding-top: 70px;
+	display: block;
+}
+#zcdl {
+	font-size: 140px;
+	padding-left: 1700px;
+	padding-top: 0%;
+	padding-bottom: 0%;
+}
+input[type=button]{
+    width: 100%;
+	font-size: 20px;
+    box-sizing: border-box;
+    border: 2px solid rgb(24, 25, 26);
+    border-radius: 40px;
+  }

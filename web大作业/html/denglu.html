@@ -1,0 +1,40 @@
+<html>
+    <head>
+    <title>中国武术登录页面</title>  
+    <link href="../css/zhuce.css" type="text/css" rel="stylesheet" />
+    <link rel="shortcut icon" href="../image/logo.jpg">
+    <Script Language="JavaScript">  
+      function check()
+      { 
+        var valid=true;
+        var n=document.getElementById("uname").value;
+        var p=document.getElementById("psw1").value;
+        if(n=="")
+        {window.alert("您好，用户名不能为空!");
+         valid=false;
+        }
+        else if(p.length<6)
+        {window.alert("您好，密码不能为空且长度不能少于6个字符!");
+         valid=false;
+        }
+        else if(valid)
+        {
+            window.alert("登录成功！");
+            location.href="zhuye.html"
+        }
+       }    
+       </Script>
+    </head>
+    <body>  
+    <div>
+      <form name="myform1" action="regist.jsp" method="post">
+      <h1>欢迎登录</h1>
+      账号:<input type="text" id="uname"><br>
+      密码:<input type="password" id="psw1"><br>
+      <input type="button" value="登录" onclick="check()">
+      <input type="button" value="注册" onclick='location.href=("zhuce.html")' />
+      </form>
+    </div>
+   
+    </body>
+  </html>  

@@ -1,0 +1,28 @@
+main{
+	width: 80%;
+	margin: 0 auto;
+}
+main h2{
+
+	text-align: center;
+	text-shadow: 3px 3px 3px #666;
+	letter-spacing: 10px;   
+}
+main p{
+    font-size: 20px;
+	text-indent: 2em;
+	line-height: 28px;
+	margin-bottom: 10px;
+}
+main ul{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin: 30px auto;
+	list-style: none;
+}
+main ul img{
+	width: 500px;
+	height: 350px;
+	border-radius: 10px;
+}

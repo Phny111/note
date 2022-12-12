@@ -1,0 +1,31 @@
+main{
+	width: 85%;
+	margin: 0 auto;
+}
+main h2{
+    font-size: 40px;
+	float: right;
+	width: 60%;
+	text-align: center;
+	text-shadow: 3px 3px 3px #666;
+	letter-spacing: 35px;
+    list-style: none;
+}
+main p{
+	width: 60%;
+	line-height: 28px;
+	font-size: 20px;
+	float: right;
+	margin-bottom: 20px;
+	height: 270px;
+}
+main img{
+    width: 400px;
+    height: 430px;
+	margin:10px auto;
+	float: left;
+	border-radius: 10px;
+}
+div{
+	padding-top: 1000px;
+}

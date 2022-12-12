@@ -1,0 +1,60 @@
+<html>
+    <head>
+    <title>中国武术注册页面</title>  
+    <link href="../css/zhuce.css" type="text/css" rel="stylesheet" />
+    <link rel="shortcut icon" href="../image/logo.jpg">
+    <Script Language="JavaScript">  
+      function check()
+      { 
+        var valid=true;
+        var n=document.getElementById("uname").value;
+        var p=document.getElementById("psw1").value;
+        var p=document.getElementById("psw2").value;
+        var e=document.getElementById("email").value;
+        if(n=="")
+        {window.alert("您好，用户名不能为空!");
+         valid=false;
+        }
+        else if(p.length<6)
+        {window.alert("您好，密码不能为空且长度不能少于6个字符!");
+         valid=false;
+        }
+        else if(psw1.value!=psw2.value)
+        {window.alert("两次密码不相同！");
+         valid=false;
+        }
+        else 
+        {var idx=e.indexOf('@');
+         if(idx<=0||idx==e.length-1)
+          {window.alert("Email地址格式不合法!");
+           valid=false;
+          }
+        }
+        if(valid)
+        {
+            window.alert("注册成功！");
+            location.href="denglu.html"
+        }
+       }    
+       </Script>
+    </head>
+    <body>  
+    <div >
+        
+      <form name="myform1" action="regist.jsp" method="post">
+      <h1>请输入注册信息</h1>
+      账号:<input type="text" id="uname"><br>
+      密码:<input type="password" id="psw1"><br>
+      再次输入密码:<input type="password" id="psw2"><br>
+     
+      邮箱:<input type="text" id="email"><br>
+      性别：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp男<input type="radio"id="man"  checked="checked" name="sex"/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+      女<input type="radio" id="woman" name="sex"><br><br>
+      <input type="button" value="注册" onclick="check()">
+      <input type="reset">
+      <input type="button" value="已有账号？点击登录" onclick='location.href=("denglu.html")' />
+      </form>
+    </div>
+   
+    </body>
+  </html>  

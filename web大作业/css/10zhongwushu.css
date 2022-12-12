@@ -1,0 +1,22 @@
+main ul{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin: 30px auto;
+	list-style: none;
+}
+main ul li img{
+	width: 380px;
+	height: 280px;
+	border-radius: 10px;
+	
+}
+main ul li p{	
+	text-align: center;
+	color: brown;
+	font-size: 20px;
+}
+div{
+	font-size: 30px;
+	padding-top: 10px;
+}
